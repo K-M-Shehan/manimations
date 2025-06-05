@@ -7,7 +7,7 @@ Make sure you have `uv` installed.
 
 If you haven't set up the environment:
 
-```
+```bash
 uv venv
 uv add manim
 ```
