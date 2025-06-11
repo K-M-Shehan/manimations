@@ -3,7 +3,7 @@
 > This directory contains a bunch of animations built with [Manim](https://docs.manim.community/) and managed using [uv](https://github.com/astral-sh/uv).
 
 ## Setup
-Make sure you have `uv` installed. 
+Make sure that you have `uv` installed. 
 
 If you haven't set up the environment:
 
@@ -27,4 +27,4 @@ See `pyproject.toml` and `uv.lock`
 ```bash
 uv run manim scenes/fileName.py sceneName -pqh
 ```
-Don't forget to replace SceneName with the actual scene name and fileName with the actual file name.
+Don't forget to replace sceneName with the actual scene name and fileName with the actual file name.

@@ -11,3 +11,9 @@ class demo(Scene):
         t = Text("Supremestrawhat")
         self.play(Write(t))
         self.wait(3)
+
+class Test(Scene):
+    def construct(self):
+        circ = Circle(radius = 2.4, color = RED)
+        self.play(Write(circ))
+        self.wait(2)
